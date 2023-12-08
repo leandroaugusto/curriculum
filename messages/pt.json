@@ -1,0 +1,29 @@
+{
+  "Index": {
+    "header": {
+      "role": "Desenvolvedor Frontend Sênior | React JS | React Native"
+    },
+    "about": {
+      "title": "Sobre",
+      "description": "Desenvolvedor front-end com 12 anos de experiência em negócios digitais.",
+      "locale": "São Paulo - SP",
+      "phone": "(11) 96566 4487",
+      "linkedin": "https://www.linkedin.com/in/leandroaugustocosta"
+    },
+    "academic": {
+      "title": "Formação Acadêmica",
+      "description": "Desing Digital e Multimídia Universidade Anhembi Morumbi"
+    },
+    "skills": {
+      "title": "Habilidades"
+    },
+    "experience": {
+      "title": "Experiência Profissional",
+      "dasa": {
+        "name": "Genera - Grupo DASA",
+        "role": "Desenvolvedor Frontend Sênior",
+        "description": "Integrado no time técnico, atuei com desenvolvimento web, utilizando a plataforma Wordpress e React."
+      }
+    }
+  }
+}
