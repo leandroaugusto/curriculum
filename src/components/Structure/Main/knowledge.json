@@ -1,0 +1,110 @@
+[
+  {
+    "name": "English",
+    "value": 8
+  },
+  {
+    "name": "React JS",
+    "value": 10
+  },
+  {
+    "name": "React Native",
+    "value": 8
+  },
+  {
+    "name": "Typescript",
+    "value": 9
+  },
+  {
+    "name": "Next JS",
+    "value": 8
+  },
+  {
+    "name": "Webpack",
+    "value": 8
+  },
+  {
+    "name": "Vite",
+    "value": 7
+  },
+  {
+    "name": "Styled components",
+    "value": 10
+  },
+  {
+    "name": "Sass",
+    "value": 10
+  },
+  {
+    "name": "Tailwind",
+    "value": 7
+  },
+  {
+    "name": "Wordpress",
+    "value": 8
+  },
+  {
+    "name": "Redux",
+    "value": 10
+  },
+  {
+    "name": "GraphQL",
+    "value": 8
+  },
+  {
+    "name": "Docker",
+    "value": 7
+  },
+  {
+    "name": "Node JS",
+    "value": 8
+  },
+  {
+    "name": "Kotlin",
+    "value": 7
+  },
+  {
+    "name": "MongoDB",
+    "value": 7
+  },
+  {
+    "name": "GIT",
+    "value": 10
+  },
+  {
+    "name": "Unit Tests",
+    "value": 10
+  },
+  {
+    "name": "E2E Tests",
+    "value": 8
+  },
+  {
+    "name": "HTML",
+    "value": 10
+  },
+  {
+    "name": "CSS",
+    "value": 10
+  },
+  {
+    "name": "Javascript",
+    "value": 10
+  },
+  {
+    "name": "Web Semantic",
+    "value": 10
+  },
+  {
+    "name": "Accessibility",
+    "value": 10
+  },
+  {
+    "name": "UI/UX Concepts",
+    "value": 9
+  },
+  {
+    "name": "Scrum",
+    "value": 10
+  }
+]

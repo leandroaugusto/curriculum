@@ -12,7 +12,9 @@
     "next": "14.0.3",
     "next-intl": "^3.3.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-share": "^5.0.3",
+    "react-to-print": "^2.14.15"
   },
   "devDependencies": {
     "@types/node": "^20",

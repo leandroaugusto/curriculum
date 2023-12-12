@@ -7,7 +7,7 @@ import { LOCALES } from "@/utils/locales";
 
 export default function Languages() {
   return (
-    <nav className="absolute top-4 right-0">
+    <nav className="absolute top-4 right-4 md:right-0 print:hidden">
       <ul className="flex text-gray-800">
         <li className="flex items-center justify-center">
           <Link href={`/${LOCALES.EN}`}>

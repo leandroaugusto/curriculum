@@ -1,29 +1,166 @@
 {
   "Index": {
     "header": {
-      "role": "Desenvolvedor Frontend Sênior | React JS | React Native"
+      "role": "Desenvolvedor Frontend Sênior | React JS | React Native",
+      "actions": "Imprimir - Compartilhar"
     },
     "about": {
       "title": "Sobre",
       "description": "Desenvolvedor front-end com 12 anos de experiência em negócios digitais.",
       "locale": "São Paulo - SP",
-      "phone": "(11) 96566 4487",
-      "linkedin": "https://www.linkedin.com/in/leandroaugustocosta"
+      "list": {
+        "phone": {
+          "text": "(11) 96566 4487",
+          "link": "https://wa.me/5511965664487",
+          "icon": "PhoneIcon"
+        },
+        "email": {
+          "text": "leandroacosta2008@gmail.com",
+          "link": "mailto:leandroacosta2008@gmail.com",
+          "icon": "LetterIcon"
+        },
+        "linkedin": {
+          "text": "linkedin.com/in/leandroaugustocosta",
+          "link": "https://www.linkedin.com/in/leandroaugustocosta",
+          "icon": "DocumentIcon"
+        },
+        "github": {
+          "text": "github.com/leandroaugusto",
+          "link": "https://github.com/leandroaugusto",
+          "icon": "CodeIcon"
+        }
+      }
     },
     "academic": {
       "title": "Formação Acadêmica",
       "description": "Desing Digital e Multimídia Universidade Anhembi Morumbi"
     },
     "skills": {
-      "title": "Habilidades"
+      "title": "Habilidades",
+      "list": {
+        "react": {
+          "name": "React JS"
+        },
+        "typescript": {
+          "name": "Typescript"
+        },
+        "preProcessors": {
+          "name": "Pre-processadores"
+        },
+        "leadership": {
+          "name": "Liderança"
+        },
+        "cssInJs": {
+          "name": "CSS no JS"
+        },
+        "designPatterns": {
+          "name": "Padrões de Projeto"
+        },
+        "agile": {
+          "name": "Metodologias Ágeis"
+        },
+        "microfrontend": {
+          "name": "Microfrontend"
+        },
+        "git": {
+          "name": "Versionamento de código"
+        },
+        "tests": {
+          "name": "Testes Unitários/E2E"
+        }
+      }
     },
     "experience": {
       "title": "Experiência Profissional",
-      "dasa": {
-        "name": "Genera - Grupo DASA",
-        "role": "Desenvolvedor Frontend Sênior",
-        "description": "Integrado no time técnico, atuei com desenvolvimento web, utilizando a plataforma Wordpress e React."
+      "list": {
+        "doris": {
+          "year": "2023-",
+          "jobType": "Remoto",
+          "name": "Doris Mobi",
+          "role": "Desenvolvedor Frontend Sênior",
+          "description": "Estou atuando em uma empresa que criou e mantém um widget de provador de roupas virtual, utilizando inteligência artificial. Atuo com frontend, participando do dia-a-dia do time, desenvolvendo em diferentes projetos da empresa. Utilizo React JS, React Native, Styled-components, Typescript, Node JS, GraphQL, React Testing Library, Cypress, Circle CI, Sentry e ferramentas do cotidiano da empresa."
+        },
+        "united": {
+          "year": "2023-2023 (4 meses)",
+          "jobType": "Remoto",
+          "name": "United Futsal",
+          "role": "Desenvolvedor Fullstack",
+          "description": "Atuei em um projeto internacional, de cliente baseado nos EUA, com time formado por brasileiros. Fui responsável por planejar, discutir e desenvolver a arquitetura, estrutura e conteúdo do código frontend e backend para uma plataforma que organiza eventos de futsal, adaptando-a para um modelo de negócio SaaS. Utilizei React JS, Typescript, Styled-components, Redux, Kotlin, Quarkus, Docker e MongoDB"
+        },
+        "dasa": {
+          "year": "2022-2023",
+          "jobType": "Remoto",
+          "name": "Genera - Grupo DASA",
+          "role": "Desenvolvedor Frontend Sênior",
+          "description": "Integrado no time técnico, atuei com desenvolvimento web, utilizando a plataforma Wordpress e o plugin Gutenberg, baseado em React. Utilizei React JS, PHP e ferramentas do cotidiano da empresa."
+        },
+        "soma": {
+          "year": "2021-2022",
+          "jobType": "Remoto",
+          "name": "Grupo SOMA",
+          "role": "Desenvolvedor Mobile | React Native",
+          "description": "Trabalhando no aplicativo do cliente com manutenção e atualização. Participando ativamente de discussões acerca de melhorias internas no time técnico da empresa. Responsável direto pela manutenção e implementação de novas features no aplicativo OffPremium. Nos primeiros meses, atuei sozinho nessa função e posteriormente fui atuando como tech lead, liderando mais 3 pessoas com nível Jr. na manutenção do app. Utilizei React Native, GraphQL, SWR, Redux, Typescript, Styled-components, Sentry, Plataforma VTEX, Appsflyer, Firebase e outras ferramentas relativas a Apps."
+        },
+        "smiles": {
+          "year": "2018-2021",
+          "jobType": "Híbrido",
+          "name": "Smiles Argentina",
+          "role": "Desenvolvedor Frontend Sênior",
+          "description": "Responsável pelo desenvolvimento e manutenção do portal Smiles para Argentina. Participei também do desenvolvimento de landing pages e manutenções no portal do Brasil. Atuei em um time técnico multidisciplinar, e com intenso contato com a lideranças da Smiles. Utilizei React JS, Typescript, Bootstrap, Sass, e Axios"
+        },
+        "mira": {
+          "year": "2017-2018",
+          "jobType": "Presencial",
+          "name": "Mira Educação",
+          "role": "Desenvolvedor Frontend Pleno",
+          "description": "Front-end responsável pelo desenvolvimento da versão portal/web em ReactJS do aplicativo Mira Aula, integrado em uma equipe com outros 2 desenvolvedores Front, além de desenvolvedores Back-end e mobile. Utilizei React JS, Redux, GraphQL, AWS, Jenkins, Apollo, Nigthwatch, Node JS e Jest com Enzyme"
+        },
+        "fillet": {
+          "year": "2016-2017",
+          "jobType": "Presencial",
+          "name": "Agência Fillet",
+          "role": "Desenvolvedor Frontend Pleno",
+          "description": "Front-end responsável pelo desenvolvimento de sites e hotsites de diversos clientes - iniciando meu contato com ReactJS - integrado em uma equipe com outros 9 desenvolvedores. Utilizei React JS, Redux, Flux, HTML e CSS"
+        },
+        "isobar": {
+          "year": "2014-2016",
+          "jobType": "Presencial",
+          "name": "Agência Click/Isobar",
+          "role": "Desenvolvedor Frontend Júnior/Pleno",
+          "description": "Integrado em uma equipe responsável pela elaboração e manutenção de projetos web dos diversos clientes da Isobar. Pude participar dos processos, desde a etapa inicial de desenvolvimento, envolvendo estruturação de pastas e arquivos e definição de assets, até a etapa de envio para deploy. Responsável, muitas vezes, pelo tagueamento de mídia dos projetos. Sempre alinhando as diretivas, tanto com a coordenação direta, quanto com a equipe de criação e negócios. Utilizei Javascript, HTML, CSS, Node JS, Less, Sass, Angular JS e PHP"
+        },
+        "novi": {
+          "year": "2014-2014 (4 meses)",
+          "jobType": "Presencial",
+          "name": "Agência Novi",
+          "role": "Desenvolvedor Frontend Júnior",
+          "description": "Desenvolvimento front-end de sites, desde institucionais, portais até pequenos e-commerces. Atuei também no desenvolvimento e conversão de Flash para HTML, de jogos educativos para tablet. Utilizei HTML, CSS e Javascript"
+        },
+        "kindle": {
+          "year": "2011-2014",
+          "jobType": "Presencial",
+          "name": "Agência Kindle/GR8",
+          "role": "Estagiário / Desenvolvedor Frontend Júnior",
+          "description": "Comecei como estagiário na Agência Kindle SP, posteriormente sendo efetivado no cargo de Front-end junior. Atuei na manutenção de sites e portais, além de participar de todo o desenvolvimento de aplicações para tablet, desde jogos interativos até Visual Aids. Atualmente a agência está no ramo de eventos e interatividade, com o nome Gr8!. Utilizei Photoshop, Ilustrator, Sublime Text, Javascript, HTML, CSS, PHP, MySQL e ferramentas próprias do cotidiano de uma agência."
+        },
+        "infservice": {
+          "year": "2010-2011",
+          "jobType": "Presencial",
+          "name": "Infservice",
+          "role": "Estagiário",
+          "description": "Estagiei na empresa Infservice, com a tecnologia de streaming, pelo período de 1 ano. Desenvolvi layouts para as apresentações, workshops e palestras online, edição de vídeos, HTML de emais marketing e sincronização de slides, tudo gerenciado por uma ferramenta de nome ON24. Utilizei HTML, CSS, Pacote Office e ferramentas específicas do cotidiano da empresa."
+        }
       }
+    },
+    "knowledge": {
+      "title": "Conhecimentos"
+    },
+    "footer": {
+      "print": "Imprimir em pdf",
+      "share": "Compartilhar"
+    },
+    "share": {
+      "email": "Gostaria de compartilhar com você o perfil de Leandro Augusto da Costa, Desenvolvedor Frontend Sênior com experiência em React JS e React Native."
     }
   }
 }
