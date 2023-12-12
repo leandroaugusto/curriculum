@@ -6,7 +6,7 @@
     },
     "about": {
       "title": "Sobre",
-      "description": "Desenvolvedor front-end com 12 anos de experiência em negócios digitais. Já trabalhei em agências de publicidade, empresas do ramo de educação, pontos de fidelidade, saúde e e-commerces. Atualmente, minha stack é React JS, Node JS, Typescript e seus derivantes. Gosto de tecnologia e busco sempre desenvolver soluções que ajudem as pessoas a completarem suas tarefas e concluírem seus objetivos com mais facilidade. Sou entusiasta de automação residencial e toco piano por hobby.",
+      "description": "Desenvolvedor front-end com 12 anos de experiência em negócios digitais. Já trabalhei em agências de publicidade, empresas do ramo de educação, pontos de fidelidade, saúde e e-commerces. Atualmente, minha stack é <b>React JS</b>, <b>Node JS</b>, <b>Typescript</b> e seus derivantes. Gosto de tecnologia e busco sempre desenvolver soluções que ajudem as pessoas a completarem suas tarefas e concluírem seus objetivos com mais facilidade. Sou entusiasta de automação residencial e toco piano por hobby.",
       "locale": "São Paulo - SP",
       "list": {
         "phone": {
@@ -33,7 +33,7 @@
     },
     "academic": {
       "title": "Formação Acadêmica",
-      "description": "Desing Digital e Multimídia Universidade Anhembi Morumbi"
+      "description": "Desing Digital e Multimídia na Universidade Anhembi Morumbi"
     },
     "skills": {
       "title": "Habilidades",
@@ -78,77 +78,77 @@
           "jobType": "Remoto",
           "name": "Doris Mobi",
           "role": "Desenvolvedor Frontend Sênior",
-          "description": "Estou atuando em uma empresa que criou e mantém um widget de provador de roupas virtual, utilizando inteligência artificial. Atuo com frontend, participando do dia-a-dia do time, desenvolvendo em diferentes projetos da empresa. Utilizo React JS, React Native, Styled-components, Typescript, Node JS, GraphQL, React Testing Library, Cypress, Circle CI, Sentry e ferramentas do cotidiano da empresa."
+          "description": "Estou atuando em uma empresa que criou e mantém um widget de provador de roupas virtual, utilizando inteligência artificial. Atuo com frontend, participando do dia-a-dia do time, desenvolvendo em diferentes projetos da empresa. Utilizo <b>React JS</b>, <b>React Native</b>, <b>Styled-components</b>, <b>Typescript</b>, <b>Node JS</b>, <b>GraphQL</b>, <b>React Testing Library</b>, <b>Cypress</b>, <b>Circle CI</b>, <b>Sentry</b> e ferramentas do cotidiano da empresa."
         },
         "united": {
           "year": "2023-2023 (4 meses)",
           "jobType": "Remoto",
           "name": "United Futsal",
           "role": "Desenvolvedor Fullstack",
-          "description": "Atuei em um projeto internacional, de cliente baseado nos EUA, com time formado por brasileiros. Fui responsável por planejar, discutir e desenvolver a arquitetura, estrutura e conteúdo do código frontend e backend para uma plataforma que organiza eventos de futsal, adaptando-a para um modelo de negócio SaaS. Utilizei React JS, Typescript, Styled-components, Redux, Kotlin, Quarkus, Docker e MongoDB"
+          "description": "Atuei em um projeto internacional, de cliente baseado nos EUA, com time formado por brasileiros. Fui responsável por planejar, discutir e desenvolver a arquitetura, estrutura e conteúdo do código frontend e backend para uma plataforma que organiza eventos de futsal, adaptando-a para um modelo de negócio SaaS. Utilizei <b>React JS</b>, <b>Typescript</b>, <b>Styled-components</b>, <b>Redux</b>, <b>Kotlin</b>, <b>Quarkus</b>, <b>Docker</b> e <b>MongoDB</b>"
         },
         "dasa": {
           "year": "2022-2023",
           "jobType": "Remoto",
           "name": "Genera - Grupo DASA",
           "role": "Desenvolvedor Frontend Sênior",
-          "description": "Integrado no time técnico, atuei com desenvolvimento web, utilizando a plataforma Wordpress e o plugin Gutenberg, baseado em React. Utilizei React JS, PHP e ferramentas do cotidiano da empresa."
+          "description": "Integrado no time técnico, atuei com desenvolvimento web, utilizando a plataforma Wordpress e o plugin Gutenberg, baseado em React. Utilizei <b>React JS</b>, <b>PHP</b> e ferramentas do cotidiano da empresa."
         },
         "soma": {
           "year": "2021-2022",
           "jobType": "Remoto",
           "name": "Grupo SOMA",
           "role": "Desenvolvedor Mobile | React Native",
-          "description": "Trabalhando no aplicativo do cliente com manutenção e atualização. Participando ativamente de discussões acerca de melhorias internas no time técnico da empresa. Responsável direto pela manutenção e implementação de novas features no aplicativo OffPremium. Nos primeiros meses, atuei sozinho nessa função e posteriormente fui atuando como tech lead, liderando mais 3 pessoas com nível Jr. na manutenção do app. Utilizei React Native, GraphQL, SWR, Redux, Typescript, Styled-components, Sentry, Plataforma VTEX, Appsflyer, Firebase e outras ferramentas relativas a Apps."
+          "description": "Trabalhando no aplicativo do cliente com manutenção e atualização. Participando ativamente de discussões acerca de melhorias internas no time técnico da empresa. Responsável direto pela manutenção e implementação de novas features no aplicativo OffPremium. Nos primeiros meses, atuei sozinho nessa função e posteriormente fui atuando como <b>tech lead</b>, liderando mais 3 pessoas com nível Jr. na manutenção do app. Utilizei <b>React Native</b>, <b>GraphQL</b>, <b>SWR</b>, <b>Redux</b>, <b>Typescript</b>, <b>Styled-components</b>, <b>Sentry</b>, <b>Plataforma VTEX</b>, <b>Appsflyer</b>, <b>Firebase</b> e outras ferramentas relativas a Apps."
         },
         "smiles": {
           "year": "2018-2021",
           "jobType": "Híbrido",
           "name": "Smiles Argentina",
           "role": "Desenvolvedor Frontend Sênior",
-          "description": "Responsável pelo desenvolvimento e manutenção do portal Smiles para Argentina. Participei também do desenvolvimento de landing pages e manutenções no portal do Brasil. Atuei em um time técnico multidisciplinar, e com intenso contato com a lideranças da Smiles. Utilizei React JS, Typescript, Bootstrap, Sass, e Axios"
+          "description": "Responsável pelo desenvolvimento e manutenção do portal Smiles para Argentina. Participei também do desenvolvimento de landing pages e manutenções no portal do Brasil. Atuei em um time técnico multidisciplinar, e com intenso contato com a lideranças da Smiles. Utilizei <b>React JS</b>, <b>Typescript</b>, <b>Bootstrap</b>, <b>Sass</b>, e <b>Axios</b>"
         },
         "mira": {
           "year": "2017-2018",
           "jobType": "Presencial",
           "name": "Mira Educação",
           "role": "Desenvolvedor Frontend Pleno",
-          "description": "Front-end responsável pelo desenvolvimento da versão portal/web em ReactJS do aplicativo Mira Aula, integrado em uma equipe com outros 2 desenvolvedores Front, além de desenvolvedores Back-end e mobile. Utilizei React JS, Redux, GraphQL, AWS, Jenkins, Apollo, Nigthwatch, Node JS e Jest com Enzyme"
+          "description": "Front-end responsável pelo desenvolvimento da versão portal/web em ReactJS do aplicativo Mira Aula, integrado em uma equipe com outros 2 desenvolvedores Front, além de desenvolvedores Back-end e mobile. Utilizei <b>React JS</b>, <b>Redux</b>, <b>GraphQL</b>, <b>AWS</b>, <b>Jenkins</b>, <b>Apollo</b>, <b>Nigthwatch</b>, <b>Node JS</b> e <b>Jest</b> com <b>Enzyme</b>"
         },
         "fillet": {
           "year": "2016-2017",
           "jobType": "Presencial",
           "name": "Agência Fillet",
           "role": "Desenvolvedor Frontend Pleno",
-          "description": "Front-end responsável pelo desenvolvimento de sites e hotsites de diversos clientes - iniciando meu contato com ReactJS - integrado em uma equipe com outros 9 desenvolvedores. Utilizei React JS, Redux, Flux, HTML e CSS"
+          "description": "Front-end responsável pelo desenvolvimento de sites e hotsites de diversos clientes - iniciando meu contato com ReactJS - integrado em uma equipe com outros 9 desenvolvedores. Utilizei <b>React JS</b>, <b>Redux</b>, <b>Flux</b>, <b>HTML</b> e <b>CSS</b>"
         },
         "isobar": {
           "year": "2014-2016",
           "jobType": "Presencial",
           "name": "Agência Click/Isobar",
           "role": "Desenvolvedor Frontend Júnior/Pleno",
-          "description": "Integrado em uma equipe responsável pela elaboração e manutenção de projetos web dos diversos clientes da Isobar. Pude participar dos processos, desde a etapa inicial de desenvolvimento, envolvendo estruturação de pastas e arquivos e definição de assets, até a etapa de envio para deploy. Responsável, muitas vezes, pelo tagueamento de mídia dos projetos. Sempre alinhando as diretivas, tanto com a coordenação direta, quanto com a equipe de criação e negócios. Utilizei Javascript, HTML, CSS, Node JS, Less, Sass, Angular JS e PHP"
+          "description": "Integrado em uma equipe responsável pela elaboração e manutenção de projetos web dos diversos clientes da Isobar. Pude participar dos processos, desde a etapa inicial de desenvolvimento, envolvendo estruturação de pastas e arquivos e definição de assets, até a etapa de envio para deploy. Responsável, muitas vezes, pelo tagueamento de mídia dos projetos. Sempre alinhando as diretivas, tanto com a coordenação direta, quanto com a equipe de criação e negócios. Utilizei <b>Javascript</b>, <b>HTML</b>, <b>CSS</b>, <b>Node JS</b>, <b>Less</b>, <b>Sass</b>, <b>Angular JS</b> e <b>PHP</b>"
         },
         "novi": {
           "year": "2014-2014 (4 meses)",
           "jobType": "Presencial",
           "name": "Agência Novi",
           "role": "Desenvolvedor Frontend Júnior",
-          "description": "Desenvolvimento front-end de sites, desde institucionais, portais até pequenos e-commerces. Atuei também no desenvolvimento e conversão de Flash para HTML, de jogos educativos para tablet. Utilizei HTML, CSS e Javascript"
+          "description": "Desenvolvimento front-end de sites, desde institucionais, portais até pequenos e-commerces. Atuei também no desenvolvimento e conversão de Flash para HTML, de jogos educativos para tablet. Utilizei <b>HTML</b>, <b>CSS</b> e <b>Javascript</b>"
         },
         "kindle": {
           "year": "2011-2014",
           "jobType": "Presencial",
           "name": "Agência Kindle/GR8",
           "role": "Estagiário / Desenvolvedor Frontend Júnior",
-          "description": "Comecei como estagiário na Agência Kindle SP, posteriormente sendo efetivado no cargo de Front-end junior. Atuei na manutenção de sites e portais, além de participar de todo o desenvolvimento de aplicações para tablet, desde jogos interativos até Visual Aids. Atualmente a agência está no ramo de eventos e interatividade, com o nome Gr8!. Utilizei Photoshop, Ilustrator, Sublime Text, Javascript, HTML, CSS, PHP, MySQL e ferramentas próprias do cotidiano de uma agência."
+          "description": "Comecei como estagiário na Agência Kindle SP, posteriormente sendo efetivado no cargo de Front-end junior. Atuei na manutenção de sites e portais, além de participar de todo o desenvolvimento de aplicações para tablet, desde jogos interativos até Visual Aids. Atualmente a agência está no ramo de eventos e interatividade, com o nome Gr8!. Utilizei <b>Photoshop</b>, <b>Ilustrator</b>, <b>Sublime Text</b>, <b>Javascript</b>, <b>HTML</b>, <b>CSS</b>, <b>PHP</b>, <b>MySQL</b> e ferramentas próprias do cotidiano de uma agência."
         },
         "infservice": {
           "year": "2010-2011",
           "jobType": "Presencial",
           "name": "Infservice",
           "role": "Estagiário",
-          "description": "Estagiei na empresa Infservice, com a tecnologia de streaming, pelo período de 1 ano. Desenvolvi layouts para as apresentações, workshops e palestras online, edição de vídeos, HTML de emais marketing e sincronização de slides, tudo gerenciado por uma ferramenta de nome ON24. Utilizei HTML, CSS, Pacote Office e ferramentas específicas do cotidiano da empresa."
+          "description": "Estagiei na empresa Infservice, com a tecnologia de streaming, pelo período de 1 ano. Desenvolvi layouts para as apresentações, workshops e palestras online, edição de vídeos, HTML de emais marketing e sincronização de slides, tudo gerenciado por uma ferramenta de nome ON24. Utilizei <b>HTML</b>, <b>CSS</b>, <b>Pacote Office</b> e ferramentas específicas do cotidiano da empresa."
         }
       }
     },

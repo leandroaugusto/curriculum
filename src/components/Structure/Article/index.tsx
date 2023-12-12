@@ -1,9 +1,21 @@
 interface ArticleProps {
   readonly children: React.ReactNode;
-  readonly company: string;
-  readonly year: string;
-  readonly role: string;
-  readonly jobType: string;
+  readonly company:
+    | string
+    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+    | React.ReactNodeArray;
+  readonly year:
+    | string
+    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+    | React.ReactNodeArray;
+  readonly role:
+    | string
+    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+    | React.ReactNodeArray;
+  readonly jobType:
+    | string
+    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+    | React.ReactNodeArray;
 }
 
 export default function Article({
@@ -18,8 +30,8 @@ export default function Article({
       <h4 className="text-sm font-bold">
         {year} <span>| {jobType}</span>
       </h4>
-      <h4 className="mt-2 font-black">{role}</h4>
-      <h5 className="mb-2 font-black text-cyan-600">{company}</h5>
+      <h4 className="mt-2 text-sm font-bold text-cyan-800">{role}</h4>
+      <h5 className="mb-2 font-bold text-cyan-800">{company}</h5>
       {children}
     </article>
   );

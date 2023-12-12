@@ -37,7 +37,10 @@ export default function Main() {
     "git",
     "tests",
   ] as const;
-  const xp = (key: string) => t(`experience.list.${key}`);
+  const xp = (key: string) =>
+    t.rich(`experience.list.${key}`, {
+      b: (chunks) => <b className="text-cyan-600">{chunks}</b>,
+    });
   const experienceKeys = [
     "doris",
     "united",
@@ -62,7 +65,11 @@ export default function Main() {
   return (
     <main className="container mx-auto flex-1 py-10 grid md:grid-flow-col auto-cols-fr md:gap-x-8 lg:gap-x-16 xl:gap-x-32 gap-y-8 print:grid-flow-col print:gap-x-8 print:text-xs">
       <Section title={t("about.title")}>
-        <p className="my-2">{t("about.description")}</p>
+        <p className="my-2">
+          {t.rich("about.description", {
+            b: (chunks) => <b className="text-cyan-600">{chunks}</b>,
+          })}
+        </p>
         <p className="font-bold">{t("about.locale")}</p>
         <ul className="mt-4 grid gap-2 font-bold">
           {aboutKeys.map((key) => (
@@ -75,7 +82,7 @@ export default function Main() {
               <a
                 href={about(`${key}.link`)}
                 target="_blank"
-                className="text-cyan-600"
+                className="text-cyan-800"
               >
                 {about(`${key}.text`)}
               </a>
@@ -92,12 +99,17 @@ export default function Main() {
       <Section title={t("skills.title")}>
         <ul className="list-disc pl-5 my-2">
           {skillKeys.map((key) => (
-            <li key={key}>{skill(`${key}.name`)}</li>
+            <li key={key} className="font-semibold">
+              {skill(`${key}.name`)}
+            </li>
           ))}
         </ul>
       </Section>
 
-      <Section title={t("knowledge.title")}>
+      <Section
+        title={t("knowledge.title")}
+        className="order-2 md:order-1 print:-order-none"
+      >
         {KnowledgeData.map((k) => (
           <Knowledge key={k.name} name={k.name} value={k.value} />
         ))}
@@ -105,7 +117,7 @@ export default function Main() {
 
       <Section
         title={t("experience.title")}
-        className="md:row-span-5 print:row-span-5"
+        className="order-1 md:order-2 md:row-span-5 print:row-span-5 print:-order-none"
       >
         {experienceKeys.map((key) => (
           <Article
