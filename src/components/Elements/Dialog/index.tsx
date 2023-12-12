@@ -14,11 +14,16 @@ import DialogContent from "./Content";
 
 interface DialogProps {
   readonly open: boolean;
+  readonly shareTitle: string;
+  readonly shareEmailBody: string;
 }
 
-export default function Dialog({ open }: DialogProps) {
-  const shareUrl = "window.location.href";
-  const title = "Titulo teste";
+export default function Dialog({
+  open,
+  shareTitle: title,
+  shareEmailBody,
+}: DialogProps) {
+  const shareUrl = "https://curriculum-leandro-costa.vercel.app/en";
 
   return (
     <div
@@ -55,7 +60,7 @@ export default function Dialog({ open }: DialogProps) {
         <EmailShareButton
           url={shareUrl}
           subject={title}
-          body="body"
+          body={shareEmailBody}
           className="flex justify-center items-center"
         >
           <EmailIcon size={32} round />

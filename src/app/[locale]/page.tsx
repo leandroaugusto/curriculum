@@ -9,7 +9,12 @@ export default function Home() {
   const t = useTranslations("Index");
   return (
     <DialogProvider>
-      <App printLabel={t("footer.print")} shareLabel={t("footer.share")}>
+      <App
+        printLabel={t("footer.print")}
+        shareLabel={t("footer.share")}
+        shareTitle={t("share.title")}
+        shareEmailBody={t("share.email")}
+      >
         <Header />
         <Main />
       </App>

@@ -12,9 +12,17 @@ interface AppProps {
   readonly children: React.ReactNode;
   readonly printLabel: string;
   readonly shareLabel: string;
+  readonly shareTitle: string;
+  readonly shareEmailBody: string;
 }
 
-export default function App({ children, printLabel, shareLabel }: AppProps) {
+export default function App({
+  children,
+  printLabel,
+  shareLabel,
+  shareTitle,
+  shareEmailBody,
+}: AppProps) {
   const { open, toggle } = useContext(DialogContext);
   const componentRef = useRef(null);
   const handlePrint = useReactToPrint({
@@ -38,7 +46,11 @@ export default function App({ children, printLabel, shareLabel }: AppProps) {
         handleClick={toggle}
         className="btn-slate-dark"
       />
-      <Dialog open={open} />
+      <Dialog
+        open={open}
+        shareTitle={shareTitle}
+        shareEmailBody={shareEmailBody}
+      />
     </>
   );
 }
