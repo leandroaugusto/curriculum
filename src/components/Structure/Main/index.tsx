@@ -73,7 +73,7 @@ export default function Main() {
         <p className="font-bold">{t("about.locale")}</p>
         <ul className="mt-4 grid gap-2 font-bold">
           {aboutKeys.map((key) => (
-            <li key={key} className="flex">
+            <li key={key} className="flex text-sm print:text-xs">
               <Image
                 src={icons[about(`${key}.icon`) as keyof IconsType]}
                 alt={String(about(`${key}.text`)).toUpperCase()}

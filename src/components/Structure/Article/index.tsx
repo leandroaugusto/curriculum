@@ -30,8 +30,8 @@ export default function Article({
       <h4 className="text-sm font-bold">
         {year} <span>| {jobType}</span>
       </h4>
-      <h4 className="mt-2 text-sm font-bold text-cyan-800">{role}</h4>
-      <h5 className="mb-2 font-bold text-cyan-800">{company}</h5>
+      <h4 className="mt-2 font-bold text-cyan-800">{role}</h4>
+      <h5 className="mb-2 text-sm font-bold text-cyan-800">{company}</h5>
       {children}
     </article>
   );
