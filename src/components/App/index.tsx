@@ -38,13 +38,13 @@ export default function App({
         id="print"
         label={printLabel}
         handleClick={handlePrint}
-        className="btn-slate"
+        className="btn-slate print:hidden"
       />
       <Button
         id="share"
         label={shareLabel}
         handleClick={toggle}
-        className="btn-slate-dark"
+        className="btn-slate-dark print:hidden"
       />
       <Dialog
         open={open}

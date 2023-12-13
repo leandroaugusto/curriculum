@@ -11,7 +11,7 @@ export default function ScrollButton({ label }: ScrollButtonProps) {
 
   return (
     <button
-      className="rounded-md bg-slate-500 text-slate-100 px-3 py-1 uppercase text-sm font-bold mt-4 print:hidden"
+      className="rounded-md bg-slate-500 text-slate-100 px-3 py-1 uppercase text-xs md:text-sm font-bold mt-4 print:hidden"
       onClick={scrollToBottom}
     >
       {label}

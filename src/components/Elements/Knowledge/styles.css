@@ -1,0 +1,17 @@
+.knowledge-list {
+  @apply grid gap-x-2 grid-cols-10;
+}
+.knowledge-list li {
+  @apply h-3.5;
+}
+@media print {
+  .knowledge-list li {
+    @apply h-2.5;
+  }
+  .knowledge-list li.filled {
+    @apply bg-slate-600;
+  }
+  .knowledge-list li.empty {
+    @apply bg-slate-300;
+  }
+}
