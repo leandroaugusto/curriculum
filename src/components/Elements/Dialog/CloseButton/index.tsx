@@ -3,8 +3,10 @@
 import { useContext } from "react";
 import { DialogContext } from "@/contexts/DialogContext";
 
-export default function DialogCloseIcon() {
-  const { toggle } = useContext(DialogContext);
+import { DialogContextType } from "@/contexts/DialogContext/types";
+
+export default function DialogCloseIcon(): React.ReactElement<HTMLButtonElement> {
+  const { toggle } = useContext(DialogContext) as DialogContextType;
 
   return (
     <button

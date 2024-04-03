@@ -1,20 +1,16 @@
 "use client";
 
 import { useReactToPrint } from "react-to-print";
-import { useRef, useContext } from "react";
+import { useRef, useContext, Suspense } from "react";
+
+import { AppProps } from "./types";
 
 import { DialogContext } from "@/contexts/DialogContext";
+import { DialogContextType } from "@/contexts/DialogContext/types";
 
 import Button from "@/components/Buttons/DefaultButton";
 import Dialog from "@/components/Elements/Dialog";
-
-interface AppProps {
-  readonly children: React.ReactNode;
-  readonly printLabel: string;
-  readonly shareLabel: string;
-  readonly shareTitle: string;
-  readonly shareEmailBody: string;
-}
+import Loading from "@/components/Elements/Loading";
 
 export default function App({
   children,
@@ -22,15 +18,15 @@ export default function App({
   shareLabel,
   shareTitle,
   shareEmailBody,
-}: AppProps) {
-  const { open, toggle } = useContext(DialogContext);
-  const componentRef = useRef(null);
+}: AppProps): React.ReactNode {
+  const { open, toggle } = useContext(DialogContext) as DialogContextType;
+  const componentRef = useRef<null | HTMLDivElement>(null);
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
   });
 
   return (
-    <>
+    <Suspense fallback={<Loading />}>
       <div className="app" ref={componentRef}>
         {children}
       </div>
@@ -51,6 +47,6 @@ export default function App({
         shareTitle={shareTitle}
         shareEmailBody={shareEmailBody}
       />
-    </>
+    </Suspense>
   );
 }

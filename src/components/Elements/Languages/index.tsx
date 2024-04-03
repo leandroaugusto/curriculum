@@ -5,7 +5,7 @@ import EnFlag from "@/assets/icons/gb-eng.svg";
 import BrFlag from "@/assets/icons/br.svg";
 import { LOCALES } from "@/utils/locales";
 
-export default function Languages() {
+export default function Languages(): React.ReactElement<HTMLDivElement> {
   return (
     <nav className="absolute top-4 right-4 md:right-0 print:hidden">
       <ul className="flex text-gray-800">

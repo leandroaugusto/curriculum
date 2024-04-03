@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 
 import Article from "@/components/Structure/Article";
@@ -12,13 +11,7 @@ import DocumentIcon from "@/assets/icons/document.svg";
 import CodeIcon from "@/assets/icons/code.svg";
 
 import KnowledgeData from "./knowledge.json";
-
-type IconsType = {
-  PhoneIcon: string | StaticImport;
-  LetterIcon: string | StaticImport;
-  DocumentIcon: string | StaticImport;
-  CodeIcon: string | StaticImport;
-};
+import { IconsType } from "./types";
 
 export default function Main() {
   const t = useTranslations("Index");

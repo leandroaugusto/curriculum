@@ -5,8 +5,8 @@ import Header from "@/components/Structure/Header";
 import Main from "@/components/Structure/Main";
 import { DialogProvider } from "@/contexts/DialogContext";
 
-export default function Home() {
-  const t = useTranslations("Index");
+export default function Home(): React.ReactNode {
+  const t = useTranslations<string>("Index");
   return (
     <DialogProvider>
       <App

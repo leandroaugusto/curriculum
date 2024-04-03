@@ -1,11 +1,11 @@
 "use client";
 
-interface ScrollButtonProps {
-  readonly label: string;
-}
+import { ScrollButtonProps } from "./types";
 
-export default function ScrollButton({ label }: ScrollButtonProps) {
-  const scrollToBottom = () => {
+export default function ScrollButton({
+  label,
+}: ScrollButtonProps): React.ReactElement<HTMLButtonElement> {
+  const scrollToBottom: () => void = () => {
     document.getElementById("print")?.scrollIntoView({ behavior: "smooth" });
   };
 

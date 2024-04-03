@@ -2,9 +2,10 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { locales } from "@/utils/locales";
-
+import { LOCALES, locales } from "@/utils/locales";
 import "@/assets/styles/globals.css";
+
+import { RootLayoutProps } from "./types";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,11 +17,8 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
   params: { locale },
-}: {
-  readonly children: React.ReactNode;
-  readonly params: { locale: string };
-}) {
-  if (!locales.includes(locale as any)) notFound();
+}: RootLayoutProps): React.ReactElement<HTMLHtmlElement> {
+  if (!locales.includes(locale as LOCALES)) notFound();
 
   return (
     <html lang={locale} className="h-full">

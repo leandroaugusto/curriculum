@@ -12,18 +12,14 @@ import {
 } from "react-share";
 import DialogContent from "./Content";
 
-interface DialogProps {
-  readonly open: boolean;
-  readonly shareTitle: string;
-  readonly shareEmailBody: string;
-}
+import { DialogProps } from "./types";
 
 export default function Dialog({
   open,
   shareTitle: title,
   shareEmailBody,
-}: DialogProps) {
-  const shareUrl = "https://curriculum-leandro-costa.vercel.app/en";
+}: DialogProps): React.ReactElement<HTMLDivElement> {
+  const shareUrl: string = "https://curriculum-leandro-costa.vercel.app/en";
 
   return (
     <div

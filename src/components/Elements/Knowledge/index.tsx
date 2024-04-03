@@ -1,13 +1,13 @@
 import "./styles.css";
 
-interface KnowledgeProps {
-  readonly name: string;
-  readonly value: number;
-}
+import { KnowledgeProps } from "./types";
 
 const KNOWLEDGE_SIZE = 10;
 
-export default function Knowledge({ name, value }: KnowledgeProps) {
+export default function Knowledge({
+  name,
+  value,
+}: KnowledgeProps): React.ReactElement<HTMLDivElement> {
   return (
     <div className="mb-5">
       <h4 className="font-bold my-2">{name}</h4>

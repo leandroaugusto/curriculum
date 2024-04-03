@@ -1,15 +1,16 @@
 "use client";
 
-import { ReactNode, createContext, useState } from "react";
+import { createContext, useState } from "react";
 
-interface DialogContextType {
-  open: boolean;
-  toggle: () => void;
-}
+import { DialogContextType, DialogProviderProps } from "./types";
 
-export const DialogContext = createContext({} as DialogContextType);
+export const DialogContext = createContext<DialogContextType>(
+  {} as DialogContextType
+);
 
-export function DialogProvider({ children }: { children: ReactNode }) {
+export function DialogProvider({
+  children,
+}: DialogProviderProps): React.ReactElement<DialogProviderProps> {
   const [open, setOpen] = useState<boolean>(false);
 
   function toggle() {
