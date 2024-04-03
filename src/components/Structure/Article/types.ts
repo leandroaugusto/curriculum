@@ -1,19 +1,7 @@
 export interface ArticleProps {
   readonly children: React.ReactNode;
-  readonly company:
-    | string
-    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
-    | React.ReactNodeArray;
-  readonly year:
-    | string
-    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
-    | React.ReactNodeArray;
-  readonly role:
-    | string
-    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
-    | React.ReactNodeArray;
-  readonly jobType:
-    | string
-    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
-    | React.ReactNodeArray;
+  readonly company: string | React.ReactNode;
+  readonly year: string | React.ReactNode;
+  readonly role: string | React.ReactNode;
+  readonly jobType: string | React.ReactNode;
 }

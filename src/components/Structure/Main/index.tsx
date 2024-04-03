@@ -10,43 +10,18 @@ import LetterIcon from "@/assets/icons/letter.svg";
 import DocumentIcon from "@/assets/icons/document.svg";
 import CodeIcon from "@/assets/icons/code.svg";
 
+import { aboutKeys, skillKeys, experienceKeys } from "./constants";
 import KnowledgeData from "./knowledge.json";
 import { IconsType } from "./types";
 
-export default function Main() {
-  const t = useTranslations("Index");
+export default function Main(): React.ReactElement<HTMLElement> {
+  const t = useTranslations<string>("Index");
   const about = (key: string) => t(`about.list.${key}`);
-  const aboutKeys = ["phone", "email", "linkedin", "github"] as const;
   const skill = (key: string) => t(`skills.list.${key}`);
-  const skillKeys = [
-    "react",
-    "typescript",
-    "preProcessors",
-    "leadership",
-    "cssInJs",
-    "designPatterns",
-    "agile",
-    "microfrontend",
-    "git",
-    "tests",
-  ] as const;
   const xp = (key: string) =>
     t.rich(`experience.list.${key}`, {
       b: (chunks) => <b className="text-cyan-600">{chunks}</b>,
     });
-  const experienceKeys = [
-    "doris",
-    "united",
-    "dasa",
-    "soma",
-    "smiles",
-    "mira",
-    "fillet",
-    "isobar",
-    "novi",
-    "kindle",
-    "infservice",
-  ] as const;
 
   const icons: IconsType = {
     PhoneIcon: PhoneIcon,

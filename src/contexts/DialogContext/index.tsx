@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useState } from "react";
+import { createContext, useState, useMemo, useCallback } from "react";
 
 import { DialogContextType, DialogProviderProps } from "./types";
 
@@ -13,13 +13,13 @@ export function DialogProvider({
 }: DialogProviderProps): React.ReactElement<DialogProviderProps> {
   const [open, setOpen] = useState<boolean>(false);
 
-  function toggle() {
+  const toggle = useCallback(() => {
     setOpen((state) => !state);
-  }
+  }, [setOpen]);
+
+  const value = useMemo(() => ({ open, toggle }), [open, toggle]);
 
   return (
-    <DialogContext.Provider value={{ open, toggle }}>
-      {children}
-    </DialogContext.Provider>
+    <DialogContext.Provider value={value}>{children}</DialogContext.Provider>
   );
 }

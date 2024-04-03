@@ -6,7 +6,7 @@ export default function Article({
   year,
   role,
   jobType,
-}: ArticleProps) {
+}: ArticleProps): React.ReactElement<ArticleProps> {
   return (
     <article className="mt-4 mb-6">
       <h4 className="text-sm font-bold">

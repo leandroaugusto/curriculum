@@ -4,5 +4,5 @@ export interface DialogContextType {
 }
 
 export interface DialogProviderProps {
-  children: React.ReactNode;
+  readonly children: React.ReactNode;
 }

@@ -4,8 +4,8 @@ import { AvatarName } from "@/components/Elements/AvatarName";
 import Languages from "@/components/Elements/Languages";
 import ProfilePhoto from "@/components/Elements/ProfilePhoto";
 
-export default function Header() {
-  const t = useTranslations("Index");
+export default function Header(): React.ReactElement<HTMLElement> {
+  const t = useTranslations<string>("Index");
 
   return (
     <header className="bg-gray-200">

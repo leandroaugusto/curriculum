@@ -1,6 +1,10 @@
 import { SectionProps } from "./types";
 
-export default function Section({ children, title, className }: SectionProps) {
+export default function Section({
+  children,
+  title,
+  className,
+}: SectionProps): React.ReactElement<HTMLElement> {
   return (
     <section className={`text-gray-800 ${className || ""}`}>
       {title && (
