@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { LOCALES, locales } from "@/utils/locales";
+import { Locales, locales } from "@/utils/locales";
 import "@/assets/styles/globals.css";
 
 import { RootLayoutProps } from "./types";
@@ -18,7 +18,7 @@ export default function RootLayout({
   children,
   params: { locale },
 }: RootLayoutProps): React.ReactElement<HTMLHtmlElement> {
-  if (!locales.includes(locale as LOCALES)) notFound();
+  if (!locales.includes(locale as Locales)) notFound();
 
   return (
     <html lang={locale} className="h-full">
