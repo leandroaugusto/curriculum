@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogProvider renders the DialogProvider 1`] = `
+<div>
+  <button
+    data-testid="mock-share"
+  />
+</div>
+`;

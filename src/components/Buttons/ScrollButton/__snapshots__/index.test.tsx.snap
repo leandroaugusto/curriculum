@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders the button component 1`] = `
+<div>
+  <button
+    class="rounded-md bg-slate-500 text-slate-100 px-3 py-1 uppercase text-xs md:text-sm font-bold mt-4 print:hidden"
+    data-testid="scroll-to-bottom-button"
+  >
+    Scroll Button
+  </button>
+</div>
+`;

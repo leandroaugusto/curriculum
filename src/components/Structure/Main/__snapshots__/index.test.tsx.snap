@@ -1,0 +1,2431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main renders the Main structure 1`] = `
+<div>
+  <main
+    class="container mx-auto flex-1 py-10 grid md:grid-flow-col auto-cols-fr md:gap-x-8 lg:gap-x-16 xl:gap-x-32 gap-y-8 print:grid-flow-col print:gap-x-8 print:text-xs"
+  >
+    <section
+      title="Sobre"
+    >
+      <p
+        class="my-2"
+      >
+        Desenvolvedor front-end com 12 anos de experiência em negócios digitais. Já trabalhei em agências de publicidade, empresas do ramo de educação, pontos de fidelidade, saúde e e-commerces. Atualmente, minha stack é 
+        <b
+          class="text-cyan-600"
+        >
+          React JS
+        </b>
+        , 
+        <b
+          class="text-cyan-600"
+        >
+          Node JS
+        </b>
+        , 
+        <b
+          class="text-cyan-600"
+        >
+          Typescript
+        </b>
+         e seus derivantes. Gosto de tecnologia e busco sempre desenvolver soluções que ajudem as pessoas a completarem suas tarefas e concluírem seus objetivos com mais facilidade. Sou entusiasta de automação residencial e toco piano por hobby.
+      </p>
+      <p
+        class="font-bold"
+      >
+        São Paulo - SP
+      </p>
+      <ul
+        class="mt-4 grid gap-2 font-bold"
+      >
+        <li
+          class="flex text-sm print:text-xs"
+        >
+          <img
+            alt="(11) 96566 4487"
+            class="mr-2"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+          <a
+            class="text-cyan-800"
+            href="https://wa.me/5511965664487"
+            target="_blank"
+          >
+            (11) 96566 4487
+          </a>
+        </li>
+        <li
+          class="flex text-sm print:text-xs"
+        >
+          <img
+            alt="LEANDROACOSTA2008@GMAIL.COM"
+            class="mr-2"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+          <a
+            class="text-cyan-800"
+            href="mailto:leandroacosta2008@gmail.com"
+            target="_blank"
+          >
+            leandroacosta2008@gmail.com
+          </a>
+        </li>
+        <li
+          class="flex text-sm print:text-xs"
+        >
+          <img
+            alt="LINKEDIN.COM/IN/LEANDROAUGUSTOCOSTA"
+            class="mr-2"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+          <a
+            class="text-cyan-800"
+            href="https://www.linkedin.com/in/leandroaugustocosta"
+            target="_blank"
+          >
+            linkedin.com/in/leandroaugustocosta
+          </a>
+        </li>
+        <li
+          class="flex text-sm print:text-xs"
+        >
+          <img
+            alt="GITHUB.COM/LEANDROAUGUSTO"
+            class="mr-2"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+          <a
+            class="text-cyan-800"
+            href="https://github.com/leandroaugusto"
+            target="_blank"
+          >
+            github.com/leandroaugusto
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section
+      title="Formação Acadêmica"
+    >
+      <h4
+        class="font-bold my-2"
+      >
+        2012
+      </h4>
+      <p>
+        Desing Digital e Multimídia na Universidade Anhembi Morumbi
+      </p>
+    </section>
+    <section
+      title="Habilidades"
+    >
+      <ul
+        class="list-disc pl-5 my-2"
+      >
+        <li
+          class="font-semibold"
+        >
+          React JS
+        </li>
+        <li
+          class="font-semibold"
+        >
+          Typescript
+        </li>
+        <li
+          class="font-semibold"
+        >
+          Pre-processadores
+        </li>
+        <li
+          class="font-semibold"
+        >
+          Liderança
+        </li>
+        <li
+          class="font-semibold"
+        >
+          CSS no JS
+        </li>
+        <li
+          class="font-semibold"
+        >
+          Padrões de Projeto
+        </li>
+        <li
+          class="font-semibold"
+        >
+          Metodologias Ágeis
+        </li>
+        <li
+          class="font-semibold"
+        >
+          Microfrontend
+        </li>
+        <li
+          class="font-semibold"
+        >
+          Versionamento de código
+        </li>
+        <li
+          class="font-semibold"
+        >
+          Testes Unitários/E2E
+        </li>
+      </ul>
+    </section>
+    <section
+      class="order-2 md:order-1 print:-order-none"
+      title="Conhecimentos"
+    >
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          English
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          React JS
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          React Native
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Typescript
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Next JS
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Webpack
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Vite
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Styled components
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Sass
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Tailwind
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Wordpress
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          PHP/Apache
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Redux
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          GraphQL
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Docker
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Node JS
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Kotlin
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          MongoDB
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          GIT
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Unit Tests
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          E2E Tests
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          HTML
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          CSS
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Javascript
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Web Semantic
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Accessibility
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          UI/UX Concepts
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="empty bg-slate-300"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+      <div
+        class="mb-5"
+      >
+        <h4
+          class="font-bold my-2"
+        >
+          Scrum
+        </h4>
+        <ul
+          class="knowledge-list"
+        >
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-0"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-1"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-2"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-3"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-4"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-5"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-6"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-7"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-8"
+          />
+          <li
+            class="filled bg-slate-600"
+            data-testid="knowledge-item-9"
+          />
+        </ul>
+      </div>
+    </section>
+    <section
+      class="order-1 md:order-2 md:row-span-5 print:row-span-5 print:-order-none"
+      title="Experiência Profissional"
+    >
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2023-
+           
+          <span>
+            | 
+            Remoto
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Desenvolvedor Frontend Sênior
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Doris Mobi
+        </h5>
+        <p>
+          Estou atuando em uma empresa que criou e mantém um widget de provador de roupas virtual, utilizando inteligência artificial. Atuo com frontend, participando do dia-a-dia do time, desenvolvendo em diferentes projetos da empresa. Utilizo 
+          <b
+            class="text-cyan-600"
+          >
+            React JS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            React Native
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Styled-components
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Typescript
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Node JS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            GraphQL
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            React Testing Library
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Cypress
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Circle CI
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Sentry
+          </b>
+           e ferramentas do cotidiano da empresa.
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2023-2023 (4 meses)
+           
+          <span>
+            | 
+            Remoto
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Desenvolvedor Fullstack
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          United Futsal
+        </h5>
+        <p>
+          Atuei em um projeto internacional, de cliente baseado nos EUA, com time formado por brasileiros. Fui responsável por planejar, discutir e desenvolver a arquitetura, estrutura e conteúdo do código frontend e backend para uma plataforma que organiza eventos de futsal, adaptando-a para um modelo de negócio SaaS. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            React JS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Typescript
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Styled-components
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Redux
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Kotlin
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Quarkus
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Docker
+          </b>
+           e 
+          <b
+            class="text-cyan-600"
+          >
+            MongoDB
+          </b>
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2022-2023
+           
+          <span>
+            | 
+            Remoto
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Desenvolvedor Frontend Sênior
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Genera - Grupo DASA
+        </h5>
+        <p>
+          Integrado no time técnico, atuei com desenvolvimento web, utilizando a plataforma Wordpress e o plugin Gutenberg, baseado em React. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            React JS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            PHP
+          </b>
+           e ferramentas do cotidiano da empresa.
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2021-2022
+           
+          <span>
+            | 
+            Remoto
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Desenvolvedor Mobile | React Native
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Grupo SOMA
+        </h5>
+        <p>
+          Trabalhando no aplicativo do cliente com manutenção e atualização. Participando ativamente de discussões acerca de melhorias internas no time técnico da empresa. Responsável direto pela manutenção e implementação de novas features no aplicativo OffPremium. Nos primeiros meses, atuei sozinho nessa função e posteriormente fui atuando como 
+          <b
+            class="text-cyan-600"
+          >
+            tech lead
+          </b>
+          , liderando mais 3 pessoas com nível Jr. na manutenção do app. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            React Native
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            GraphQL
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            SWR
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Redux
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Typescript
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Styled-components
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Sentry
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Plataforma VTEX
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Appsflyer
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Firebase
+          </b>
+           e outras ferramentas relativas a Apps.
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2018-2021
+           
+          <span>
+            | 
+            Híbrido
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Desenvolvedor Frontend Sênior
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Smiles Argentina
+        </h5>
+        <p>
+          Responsável pelo desenvolvimento e manutenção do portal Smiles para Argentina. Participei também do desenvolvimento de landing pages e manutenções no portal do Brasil. Atuei em um time técnico multidisciplinar, e com intenso contato com a lideranças da Smiles. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            React JS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Typescript
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Bootstrap
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Sass
+          </b>
+          , e 
+          <b
+            class="text-cyan-600"
+          >
+            Axios
+          </b>
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2017-2018
+           
+          <span>
+            | 
+            Presencial
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Desenvolvedor Frontend Pleno
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Mira Educação
+        </h5>
+        <p>
+          Front-end responsável pelo desenvolvimento da versão portal/web em ReactJS do aplicativo Mira Aula, integrado em uma equipe com outros 2 desenvolvedores Front, além de desenvolvedores Back-end e mobile. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            React JS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Redux
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            GraphQL
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            AWS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Jenkins
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Apollo
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Nigthwatch
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Node JS
+          </b>
+           e 
+          <b
+            class="text-cyan-600"
+          >
+            Jest
+          </b>
+           com 
+          <b
+            class="text-cyan-600"
+          >
+            Enzyme
+          </b>
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2016-2017
+           
+          <span>
+            | 
+            Presencial
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Desenvolvedor Frontend Pleno
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Agência Fillet
+        </h5>
+        <p>
+          Front-end responsável pelo desenvolvimento de sites e hotsites de diversos clientes - iniciando meu contato com ReactJS - integrado em uma equipe com outros 9 desenvolvedores. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            React JS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Redux
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Flux
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            HTML
+          </b>
+           e 
+          <b
+            class="text-cyan-600"
+          >
+            CSS
+          </b>
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2014-2016
+           
+          <span>
+            | 
+            Presencial
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Desenvolvedor Frontend Júnior/Pleno
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Agência Click/Isobar
+        </h5>
+        <p>
+          Integrado em uma equipe responsável pela elaboração e manutenção de projetos web dos diversos clientes da Isobar. Pude participar dos processos, desde a etapa inicial de desenvolvimento, envolvendo estruturação de pastas e arquivos e definição de assets, até a etapa de envio para deploy. Responsável, muitas vezes, pelo tagueamento de mídia dos projetos. Sempre alinhando as diretivas, tanto com a coordenação direta, quanto com a equipe de criação e negócios. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            Javascript
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            HTML
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            CSS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Node JS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Less
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Sass
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Angular JS
+          </b>
+           e 
+          <b
+            class="text-cyan-600"
+          >
+            PHP
+          </b>
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2014-2014 (4 meses)
+           
+          <span>
+            | 
+            Presencial
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Desenvolvedor Frontend Júnior
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Agência Novi
+        </h5>
+        <p>
+          Desenvolvimento front-end de sites, desde institucionais, portais até pequenos e-commerces. Atuei também no desenvolvimento e conversão de Flash para HTML, de jogos educativos para tablet. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            HTML
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            CSS
+          </b>
+           e 
+          <b
+            class="text-cyan-600"
+          >
+            Javascript
+          </b>
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2011-2014
+           
+          <span>
+            | 
+            Presencial
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Estagiário / Desenvolvedor Frontend Júnior
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Agência Kindle/GR8
+        </h5>
+        <p>
+          Comecei como estagiário na Agência Kindle SP, posteriormente sendo efetivado no cargo de Front-end junior. Atuei na manutenção de sites e portais, além de participar de todo o desenvolvimento de aplicações para tablet, desde jogos interativos até Visual Aids. Atualmente a agência está no ramo de eventos e interatividade, com o nome Gr8!. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            Photoshop
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Ilustrator
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Sublime Text
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Javascript
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            HTML
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            CSS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            PHP
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            MySQL
+          </b>
+           e ferramentas próprias do cotidiano de uma agência.
+        </p>
+      </article>
+      <article
+        class="mt-4 mb-6"
+      >
+        <h4
+          class="text-sm font-bold"
+        >
+          2010-2011
+           
+          <span>
+            | 
+            Presencial
+          </span>
+        </h4>
+        <h4
+          class="mt-2 font-bold text-cyan-800"
+        >
+          Estagiário
+        </h4>
+        <h5
+          class="mb-2 text-sm font-bold text-cyan-800"
+        >
+          Infservice
+        </h5>
+        <p>
+          Estagiei na empresa Infservice, com a tecnologia de streaming, pelo período de 1 ano. Desenvolvi layouts para as apresentações, workshops e palestras online, edição de vídeos, HTML de emais marketing e sincronização de slides, tudo gerenciado por uma ferramenta de nome ON24. Utilizei 
+          <b
+            class="text-cyan-600"
+          >
+            HTML
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            CSS
+          </b>
+          , 
+          <b
+            class="text-cyan-600"
+          >
+            Pacote Office
+          </b>
+           e ferramentas específicas do cotidiano da empresa.
+        </p>
+      </article>
+    </section>
+  </main>
+</div>
+`;

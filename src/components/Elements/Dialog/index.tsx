@@ -23,6 +23,7 @@ export default function Dialog({
 
   return (
     <div
+      data-testid="dialog-container"
       className={`fixed top-0 w-full h-full flex items-center justify-center bg-opacity-60 bg-black ${
         open ? "block" : "hidden"
       }`}

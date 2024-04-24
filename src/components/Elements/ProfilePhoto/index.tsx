@@ -10,6 +10,8 @@ export default function ProfilePhoto({
     <Image
       src={url || Photo2}
       alt="Profile photo"
+      width={100}
+      height={100}
       className="object-cover object-center h-32 w-32 md:h-40 md:w-40 rounded-full"
     />
   );

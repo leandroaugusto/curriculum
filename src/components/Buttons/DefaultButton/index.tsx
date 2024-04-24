@@ -10,7 +10,12 @@ export default function Button({
   id,
 }: ButtonProps): React.ReactElement<HTMLButtonElement> {
   return (
-    <button className={`btn ${className}`} onClick={handleClick} id={id}>
+    <button
+      className={`btn ${className}`}
+      onClick={handleClick}
+      id={id}
+      data-testid={`${id}-button`}
+    >
       {label}
     </button>
   );

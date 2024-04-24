@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article renders the Article element 1`] = `
+<div>
+  <article
+    class="mt-4 mb-6"
+  >
+    <h4
+      class="text-sm font-bold"
+    >
+      2010
+       
+      <span>
+        | 
+        jobType
+      </span>
+    </h4>
+    <h4
+      class="mt-2 font-bold text-cyan-800"
+    >
+      role
+    </h4>
+    <h5
+      class="mb-2 text-sm font-bold text-cyan-800"
+    >
+      company
+    </h5>
+    <p>
+      Description
+    </p>
+  </article>
+</div>
+`;

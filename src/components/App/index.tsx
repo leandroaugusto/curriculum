@@ -6,11 +6,10 @@ import { useRef, useContext, Suspense } from "react";
 import { AppProps } from "./types";
 
 import { DialogContext } from "@/contexts/DialogContext";
-import { DialogContextType } from "@/contexts/DialogContext/types";
 
 import Button from "@/components/Buttons/DefaultButton";
-import Dialog from "@/components/Elements/Dialog";
 import Loading from "@/components/Elements/Loading";
+import Dialog from "@/components/Elements/Dialog";
 
 export default function App({
   children,
@@ -19,7 +18,7 @@ export default function App({
   shareTitle,
   shareEmailBody,
 }: AppProps): React.ReactNode {
-  const { open, toggle } = useContext(DialogContext) as DialogContextType;
+  const { open, toggle } = useContext(DialogContext);
   const componentRef = useRef<null | HTMLDivElement>(null);
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
@@ -27,7 +26,7 @@ export default function App({
 
   return (
     <Suspense fallback={<Loading />}>
-      <div className="app" ref={componentRef}>
+      <div data-testid="app-container" className="app" ref={componentRef}>
         {children}
       </div>
       <Button

@@ -12,7 +12,6 @@ export default function Header(): React.ReactElement<HTMLElement> {
       <div className="container mx-auto flex items-center justify-center py-16 px-4 relative">
         <ProfilePhoto />
         <AvatarName
-          username="leandroaugusto"
           role={t("header.role")}
           actionsLabel={t("header.actions")}
         />

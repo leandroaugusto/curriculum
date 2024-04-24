@@ -15,6 +15,7 @@ export default function Knowledge({
         {[...Array(KNOWLEDGE_SIZE)].map((_, index) => (
           <li
             key={index}
+            data-testid={`knowledge-item-${index}`}
             className={`${
               index < value ? "filled bg-slate-600" : "empty bg-slate-300"
             }`}

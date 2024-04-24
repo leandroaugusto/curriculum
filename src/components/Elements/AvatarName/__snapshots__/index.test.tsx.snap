@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarName renders the AvatarName element 1`] = `
+<div>
+  <div
+    class="text-gray-800 ml-6"
+    data-testid="avatar-name"
+  >
+    <h1
+      class="text-2xl md:text-4xl md:mb-2"
+      data-testid="username"
+    >
+      Leandro Costa
+    </h1>
+    <h2
+      class="text-sm md:text-lg"
+      data-testid="bio"
+    >
+      bio
+    </h2>
+    <button
+      class="rounded-md bg-slate-500 text-slate-100 px-3 py-1 uppercase text-xs md:text-sm font-bold mt-4 print:hidden"
+      data-testid="scroll-to-bottom-button"
+    >
+      actionsLabel
+    </button>
+  </div>
+</div>
+`;

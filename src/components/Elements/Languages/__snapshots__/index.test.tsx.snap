@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Languages renders the Languages element 1`] = `
+<div>
+  <nav
+    class="absolute top-4 right-4 md:right-0 print:hidden"
+  >
+    <ul
+      class="flex text-gray-800"
+    >
+      <li
+        class="flex items-center justify-center"
+      >
+        <a
+          href="/en"
+        >
+          <img
+            alt="English"
+            class="object-cover object-center h-6 w-8 rounded"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </a>
+      </li>
+      <li
+        class="flex items-center justify-center ml-4"
+      >
+        <a
+          href="/pt"
+        >
+          <img
+            alt="Português"
+            class="object-cover object-center h-6 w-8 rounded"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

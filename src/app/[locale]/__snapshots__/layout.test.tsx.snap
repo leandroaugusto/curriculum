@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RootLayout renders the RootLayout 1`] = `
+<div>
+  <html
+    class="h-full"
+    data-testid="root-layout"
+    lang="en-GB"
+  >
+    <body
+      class="className bg-white min-h-full flex flex-col"
+    >
+      <p>
+        Test
+      </p>
+    </body>
+  </html>
+</div>
+`;

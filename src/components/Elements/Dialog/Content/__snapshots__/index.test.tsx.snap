@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogContent renders the DialogCloseIcon element 1`] = `
+<div>
+  <div
+    class="rounded-xl bg-white w-1/2 h-1/5 grid grid-cols-3 md:grid-cols-5 pt-10 md:py-16 relative"
+  >
+    <button
+      class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 absolute right-0 top-0"
+      type="button"
+    >
+      <span
+        class="sr-only"
+      >
+        Close menu
+      </span>
+      <svg
+        aria-hidden="true"
+        class="h-6 w-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 18L18 6M6 6l12 12"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <p>
+      Children
+    </p>
+  </div>
+</div>
+`;
