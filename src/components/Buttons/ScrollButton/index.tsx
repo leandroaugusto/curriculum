@@ -2,8 +2,6 @@
 
 import { ScrollButtonProps } from "./types";
 
-import { ButtonProps } from "../DefaultButton/types";
-
 export default function ScrollButton({
   label,
 }: ScrollButtonProps): React.ReactElement<HTMLButtonElement> {
