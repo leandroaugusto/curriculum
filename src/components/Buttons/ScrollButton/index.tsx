@@ -3,6 +3,7 @@
 import { ScrollButtonProps } from "./types";
 
 import { ButtonProps } from "../DefaultButton/types";
+import PhoneIcon from "@/assets/icons/phone.svg";
 
 export default function ScrollButton({
   label,
