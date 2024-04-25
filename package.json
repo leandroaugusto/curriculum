@@ -47,7 +47,7 @@
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
-      "next lint",
+      "npm run lint",
       "eslint --fix",
       "eslint",
       "prettier --write"
