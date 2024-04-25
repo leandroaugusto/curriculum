@@ -2,9 +2,6 @@
 
 import { ScrollButtonProps } from "./types";
 
-import { ButtonProps } from "../DefaultButton/types";
-import PhoneIcon from "@/assets/icons/phone.svg";
-
 export default function ScrollButton({
   label,
 }: ScrollButtonProps): React.ReactElement<HTMLButtonElement> {
@@ -13,6 +10,7 @@ export default function ScrollButton({
     const elementTop = element?.offsetTop;
     window.scrollTo({ top: elementTop, behavior: "smooth" });
   };
+  console.log("test");
 
   return (
     <button
