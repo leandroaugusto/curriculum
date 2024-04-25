@@ -10,6 +10,7 @@ export default function ScrollButton({
     const elementTop = element?.offsetTop;
     window.scrollTo({ top: elementTop, behavior: "smooth" });
   };
+
   console.log("test");
 
   return (
