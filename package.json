@@ -6,10 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "commit": "git-cz",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "lint-staged": "lint-staged",
+    "prepare": "husky",
+    "prettier": "prettier --write --ignore-unknown .",
+    "prettier:check": "prettier --check --ignore-unknown .",
     "test": "jest --colors",
-    "test:watch": "jest --watch",
-    "prepare": "husky"
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "next": "14.0.3",
@@ -31,6 +36,8 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
     "eslint-config-prettier": "^9.1.0",
@@ -51,5 +58,10 @@
       "eslint",
       "prettier --write"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
