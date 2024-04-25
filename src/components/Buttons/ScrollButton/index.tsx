@@ -11,8 +11,6 @@ export default function ScrollButton({
     window.scrollTo({ top: elementTop, behavior: "smooth" });
   };
 
-  console.log("test");
-
   return (
     <button
       data-testid="scroll-to-bottom-button"
