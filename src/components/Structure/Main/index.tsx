@@ -30,6 +30,8 @@ export default function Main(): React.ReactElement<HTMLElement> {
     CodeIcon: CodeIcon,
   };
 
+  const SHOW_REMUNERATION = false;
+
   return (
     <main className="container mx-auto flex-1 py-10 grid md:grid-flow-col auto-cols-fr md:gap-x-8 lg:gap-x-16 xl:gap-x-32 gap-y-8 print:grid-flow-col print:gap-x-8 print:text-xs">
       <Section title={t("about.title")}>
@@ -57,6 +59,13 @@ export default function Main(): React.ReactElement<HTMLElement> {
             </li>
           ))}
         </ul>
+        {SHOW_REMUNERATION && (
+          <p className="mt-4 font-bold">
+            {t.rich("about.remuneration", {
+              b: (chunks) => <b className="text-cyan-600">{chunks}</b>,
+            })}
+          </p>
+        )}
       </Section>
 
       <Section title={t("academic.title")}>

@@ -6,10 +6,10 @@ exports[`Languages renders the Languages element 1`] = `
     class="absolute top-4 right-4 md:right-0 print:hidden"
   >
     <ul
-      class="flex text-gray-800"
+      class="grid gap-3 grid-flow-col text-gray-800"
     >
       <li
-        class="flex items-center justify-center"
+        class="rounded-full overflow-hidden border-2 border-solid border-gray-300 scale-90"
       >
         <a
           href="/en"
@@ -29,7 +29,7 @@ exports[`Languages renders the Languages element 1`] = `
         </a>
       </li>
       <li
-        class="flex items-center justify-center ml-4"
+        class="rounded-full overflow-hidden border-2 border-solid border-gray-300 scale-90"
       >
         <a
           href="/pt"
