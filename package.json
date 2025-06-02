@@ -1,6 +1,7 @@
 {
   "name": "curriculum",
   "version": "0.1.0",
+  "homepage": "https://curriculum-leandro-costa.vercel.app/en",
   "private": true,
   "scripts": {
     "dev": "next dev --experimental-https",
